@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var year = parseInt(prompt("Input years:",''));
+    if (year % 4 == 0){
+        if (year % 100 == 0){
+            if (year % 400 == 0){
+                alert(year + " la nam nhuan");
+            }else {
+                alert(year + " khong phai nam nhuan");
+            }
+        }else {
+            alert(year + " a nam nhuan");
+        }
+    }else {
+        alert(year + " khong phai nam nhuan");
+    }
+</script>
+</body>
+</html>
